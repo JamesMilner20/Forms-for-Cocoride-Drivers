@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <title></title>
+</head>
+
+<body>
+
+  <div class="container">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home">Page 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu1">Page 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu2">Page 3</a>
+      </li>
+    </ul>
+
+
+
+    <div class="tab-content">
+      <div id="home" class="container tab-pane active"><br>
+          <h2>Form control: input</h2>
+          <p>The form below contains two input elements; one of type text and one of type password:</p>
+          <form method="post" action="connect.php">
+            <div class="form-group">
+              <label for="usr">Surname:</label>
+              <input type="text" class="form-control" id="srname" name="username">
+            </div>
+
+            <div class="form-group">
+              <label for="fstName">First Name:</label>
+              <input type="text" class="form-control" id="fstName" name="firstName">
+            </div>
+
+            <div class="form-group">
+              <label for="usr">Other Names:</label>
+              <input type="othNames" class="form-control" id="othNames" name="otherNames">
+            </div>
+
+            <div class="form-group">
+              <label for="dOB">Date of Birth:</label>
+              <input type="date" class="form-control" id="dOB" name="dateOfBirth">
+            </div>
+
+            <div class="form-group">
+              <label for="emal">E-mail Address:</label>
+              <input type="email" class="form-control" aria-describedby="emailHelp" id="emal" name="email">
+            </div>
+
+            <div class="form-group">
+              <label for="CntNum">Contact Number:</label>
+              <input type="number" class="form-control" id="CntNum" name="contactNumber">
+            </div>
+
+            <div class="form-group">
+              <label for="formControlTextarea1">Contact Address:</label>
+              <textarea class="form-control" id="formControlTextarea1" rows="2"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="cty">City:</label>
+              <input type="text" class="form-control" id="cty" name="city">
+            </div>
+
+            <div class="form-group">
+              <label for="resdLoca">Residence Location:</label>
+              <input type="text" class="form-control" id="resdLoca" name="residenceLocation">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Will you be driving for a</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+            <option>Corporate body (a company)</option>
+            <option>Individual</option>
+            <option>Third-Party</option>
+          </select>
+            </div>
+
+          </form>
+      </div>
+
+      <div id="menu1" class="container tab-pane fade"><br>
+        <h3>Menu 1</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+      </div>
+
+      <div id="menu2" class="container tab-pane fade"><br>
+        <h3>Menu 2</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        <button type="submit" id="firstPage" class="btn btn-primary">Next</button>
+      </div>
+    </div>
+
+    <hr>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home">Page 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu1">Page 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu2">Page 3</a>
+      </li>
+    </ul>
+
+    </div>
+
+
+</body>
+
+</html>
